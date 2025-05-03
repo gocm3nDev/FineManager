@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF0D0D4-BBF4-4FDD-B873-A031B26D09A2}|CsharpProje\\CsharpProje.csproj|c:\\users\\efe\\desktop\\projects\\csharpproje\\csharpproje\\yetkilipanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2AF0D0D4-BBF4-4FDD-B873-A031B26D09A2}|CsharpProje\\CsharpProje.csproj|solutionrelative:csharpproje\\yetkilipanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF0D0D4-BBF4-4FDD-B873-A031B26D09A2}|CsharpProje\\CsharpProje.csproj|C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\csharpproje\\anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF0D0D4-BBF4-4FDD-B873-A031B26D09A2}|CsharpProje\\CsharpProje.csproj|solutionrelative:csharpproje\\anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF0D0D4-BBF4-4FDD-B873-A031B26D09A2}|CsharpProje\\CsharpProje.csproj|C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\csharpproje\\business\\databaseopspenalty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF0D0D4-BBF4-4FDD-B873-A031B26D09A2}|CsharpProje\\CsharpProje.csproj|solutionrelative:csharpproje\\business\\databaseopspenalty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF0D0D4-BBF4-4FDD-B873-A031B26D09A2}|CsharpProje\\CsharpProje.csproj|C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\csharpproje\\anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2AF0D0D4-BBF4-4FDD-B873-A031B26D09A2}|CsharpProje\\CsharpProje.csproj|solutionrelative:csharpproje\\anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF0D0D4-BBF4-4FDD-B873-A031B26D09A2}|CsharpProje\\CsharpProje.csproj|C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\csharpproje\\kaydol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2AF0D0D4-BBF4-4FDD-B873-A031B26D09A2}|CsharpProje\\CsharpProje.csproj|solutionrelative:csharpproje\\kaydol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF0D0D4-BBF4-4FDD-B873-A031B26D09A2}|CsharpProje\\CsharpProje.csproj|C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\csharpproje\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2AF0D0D4-BBF4-4FDD-B873-A031B26D09A2}|CsharpProje\\CsharpProje.csproj|solutionrelative:csharpproje\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF0D0D4-BBF4-4FDD-B873-A031B26D09A2}|CsharpProje\\CsharpProje.csproj|C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\csharpproje\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF0D0D4-BBF4-4FDD-B873-A031B26D09A2}|CsharpProje\\CsharpProje.csproj|solutionrelative:csharpproje\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF0D0D4-BBF4-4FDD-B873-A031B26D09A2}|CsharpProje\\CsharpProje.csproj|C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\csharpproje\\yetkilipanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF0D0D4-BBF4-4FDD-B873-A031B26D09A2}|CsharpProje\\CsharpProje.csproj|solutionrelative:csharpproje\\yetkilipanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF0D0D4-BBF4-4FDD-B873-A031B26D09A2}|CsharpProje\\CsharpProje.csproj|C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\csharpproje\\business\\databaseopsuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF0D0D4-BBF4-4FDD-B873-A031B26D09A2}|CsharpProje\\CsharpProje.csproj|solutionrelative:csharpproje\\business\\databaseopsuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF0D0D4-BBF4-4FDD-B873-A031B26D09A2}|CsharpProje\\CsharpProje.csproj|C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\csharpproje\\business\\databaseopslp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF0D0D4-BBF4-4FDD-B873-A031B26D09A2}|CsharpProje\\CsharpProje.csproj|solutionrelative:csharpproje\\business\\databaseopslp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Anasayfa.cs",
+              "DocumentMoniker": "C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\CsharpProje\\Anasayfa.cs",
+              "RelativeDocumentMoniker": "CsharpProje\\Anasayfa.cs",
+              "ToolTip": "C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\CsharpProje\\Anasayfa.cs",
+              "RelativeToolTip": "CsharpProje\\Anasayfa.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAawHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:17:29.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseOpsPenalty.cs",
+              "DocumentMoniker": "C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\CsharpProje\\Business\\DatabaseOpsPenalty.cs",
+              "RelativeDocumentMoniker": "CsharpProje\\Business\\DatabaseOpsPenalty.cs",
+              "ToolTip": "C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\CsharpProje\\Business\\DatabaseOpsPenalty.cs",
+              "RelativeToolTip": "CsharpProje\\Business\\DatabaseOpsPenalty.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADgvxUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T11:13:01.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "YetkiliPanel.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\CsharpProje\\YetkiliPanel.cs",
+              "RelativeDocumentMoniker": "CsharpProje\\YetkiliPanel.cs",
+              "ToolTip": "C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\CsharpProje\\YetkiliPanel.cs [Tasar\u0131m]",
+              "RelativeToolTip": "CsharpProje\\YetkiliPanel.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T23:25:00.167Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Kaydol.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\CsharpProje\\Kaydol.cs",
+              "RelativeDocumentMoniker": "CsharpProje\\Kaydol.cs",
+              "ToolTip": "C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\CsharpProje\\Kaydol.cs [Tasar\u0131m]",
+              "RelativeToolTip": "CsharpProje\\Kaydol.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T23:32:35.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Anasayfa.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\CsharpProje\\Anasayfa.cs",
+              "RelativeDocumentMoniker": "CsharpProje\\Anasayfa.cs",
+              "ToolTip": "C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\CsharpProje\\Anasayfa.cs [Tasar\u0131m]",
+              "RelativeToolTip": "CsharpProje\\Anasayfa.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T21:57:36.332Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DatabaseOpsUser.cs",
+              "DocumentMoniker": "C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\CsharpProje\\Business\\DatabaseOpsUser.cs",
+              "RelativeDocumentMoniker": "CsharpProje\\Business\\DatabaseOpsUser.cs",
+              "ToolTip": "C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\CsharpProje\\Business\\DatabaseOpsUser.cs",
+              "RelativeToolTip": "CsharpProje\\Business\\DatabaseOpsUser.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAuwD0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T11:15:05.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "YetkiliPanel.cs",
+              "DocumentMoniker": "C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\CsharpProje\\YetkiliPanel.cs",
+              "RelativeDocumentMoniker": "CsharpProje\\YetkiliPanel.cs",
+              "ToolTip": "C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\CsharpProje\\YetkiliPanel.cs",
+              "RelativeToolTip": "CsharpProje\\YetkiliPanel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwB0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T23:31:33.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\CsharpProje\\Form1.cs",
+              "RelativeDocumentMoniker": "CsharpProje\\Form1.cs",
+              "ToolTip": "C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\CsharpProje\\Form1.cs",
+              "RelativeToolTip": "CsharpProje\\Form1.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T21:55:45.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\CsharpProje\\Form1.cs",
+              "RelativeDocumentMoniker": "CsharpProje\\Form1.cs",
+              "ToolTip": "C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\CsharpProje\\Form1.cs [Tasar\u0131m]",
+              "RelativeToolTip": "CsharpProje\\Form1.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T21:14:34.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DatabaseOpsLP.cs",
+              "DocumentMoniker": "C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\CsharpProje\\Business\\DatabaseOpsLP.cs",
+              "RelativeDocumentMoniker": "CsharpProje\\Business\\DatabaseOpsLP.cs",
+              "ToolTip": "C:\\Users\\Efe\\Desktop\\Projects\\CsharpProje\\CsharpProje\\Business\\DatabaseOpsLP.cs",
+              "RelativeToolTip": "CsharpProje\\Business\\DatabaseOpsLP.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T11:19:43.643Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

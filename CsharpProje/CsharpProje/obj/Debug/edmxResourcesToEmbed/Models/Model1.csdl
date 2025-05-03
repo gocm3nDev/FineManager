@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbPPModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TBL_LPLATES">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LicensePlate" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="UserID" Type="Int32" />
+    <NavigationProperty Name="TBL_USERS" Relationship="Self.FK_TBL_LPLATES_TBL_USERS" FromRole="TBL_LPLATES" ToRole="TBL_USERS" />
+    <NavigationProperty Name="TBL_PENALTIES" Relationship="Self.FK_TBL_PENALTIES_TBL_LPLATES" FromRole="TBL_LPLATES" ToRole="TBL_PENALTIES" />
+  </EntityType>
+  <EntityType Name="TBL_PENALTIES">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="UserTCKN" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="LicensePlateID" Type="Int32" />
+    <NavigationProperty Name="TBL_LPLATES" Relationship="Self.FK_TBL_PENALTIES_TBL_LPLATES" FromRole="TBL_PENALTIES" ToRole="TBL_LPLATES" />
+    <Property Name="Price" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TBL_USERS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Surname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TCKN" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="Telephone" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Authority" Type="Byte" />
+    <NavigationProperty Name="TBL_LPLATES" Relationship="Self.FK_TBL_LPLATES_TBL_USERS" FromRole="TBL_USERS" ToRole="TBL_LPLATES" />
+  </EntityType>
+  <Association Name="FK_TBL_LPLATES_TBL_USERS">
+    <End Role="TBL_USERS" Type="Self.TBL_USERS" Multiplicity="0..1" />
+    <End Role="TBL_LPLATES" Type="Self.TBL_LPLATES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_USERS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TBL_LPLATES">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TBL_PENALTIES_TBL_LPLATES">
+    <End Role="TBL_LPLATES" Type="Self.TBL_LPLATES" Multiplicity="0..1" />
+    <End Role="TBL_PENALTIES" Type="Self.TBL_PENALTIES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_LPLATES">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TBL_PENALTIES">
+        <PropertyRef Name="LicensePlateID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DbPPEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="TBL_LPLATES" EntityType="Self.TBL_LPLATES" />
+    <EntitySet Name="TBL_PENALTIES" EntityType="Self.TBL_PENALTIES" />
+    <EntitySet Name="TBL_USERS" EntityType="Self.TBL_USERS" />
+    <AssociationSet Name="FK_TBL_LPLATES_TBL_USERS" Association="Self.FK_TBL_LPLATES_TBL_USERS">
+      <End Role="TBL_USERS" EntitySet="TBL_USERS" />
+      <End Role="TBL_LPLATES" EntitySet="TBL_LPLATES" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TBL_PENALTIES_TBL_LPLATES" Association="Self.FK_TBL_PENALTIES_TBL_LPLATES">
+      <End Role="TBL_LPLATES" EntitySet="TBL_LPLATES" />
+      <End Role="TBL_PENALTIES" EntitySet="TBL_PENALTIES" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(DbPPModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(DbPPModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>
